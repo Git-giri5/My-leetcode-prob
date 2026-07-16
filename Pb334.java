@@ -14,3 +14,20 @@ class Solution {
         return false;
     }
 }
+
+// Modified code for O(n) complextiy
+/*class Solution {
+    public boolean increasingTriplet(int[] nums) {
+        int fst=Integer.MAX_VALUE,second=Integer.MAX_VALUE;
+        for(int num:nums){
+            if(num<=fst){
+                fst=num;
+            }else if(num<=second){
+                second=num;
+            }else{
+                return true;
+            }
+        }
+        return false;
+    }
+}*/
