@@ -12,3 +12,4 @@ class Solution {
         }
     }
 }
+//less time xomplexity code 2ms
