@@ -1,3 +1,4 @@
+// but the time com is more like 5ms
 class Solution {
     public int maxArea(int[] h) {
         int s=0,l=h.length-1;
