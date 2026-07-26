@@ -12,3 +12,16 @@ class Solution {
         return m;
     }
 }
+/*class Solution {
+    public int largestAltitude(int[] gain) {
+        int altitude=0,m=0;
+        for(int g:gain){
+            altitude+=g;
+            m=Math.max(m,altitude);
+            
+        }
+        return m;
+    }
+}
+
+ */
