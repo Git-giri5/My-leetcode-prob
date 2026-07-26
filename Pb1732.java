@@ -12,7 +12,8 @@ class Solution {
         return m;
     }
 }
-/*class Solution {
+/* 2nd code
+class Solution {
     public int largestAltitude(int[] gain) {
         int altitude=0,m=0;
         for(int g:gain){
