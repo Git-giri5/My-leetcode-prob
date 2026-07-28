@@ -1,3 +1,4 @@
+//using set for removing duplicated and using list for returning
 class Solution {
     public List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
         List<Integer> l1=new ArrayList<>();
