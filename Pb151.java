@@ -14,6 +14,7 @@ class Solution {
         return String.join(" ", arr).trim().replaceAll("\\s+"," ");
     }
 }
+2 codes with different logic
 /*  
 less time complexity than above this is 8ms
 class Solution {
