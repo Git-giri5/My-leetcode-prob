@@ -32,3 +32,4 @@ class Solution {
         return String.join(" ", arr);
     }
 } */
+but can be written on their will
