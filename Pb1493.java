@@ -16,3 +16,4 @@ class Solution {
         return m;
     }
 }
+//counting no of zeros
