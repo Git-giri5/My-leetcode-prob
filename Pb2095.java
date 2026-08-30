@@ -11,6 +11,7 @@
  *     }
  * }
  */
+// 2 diff code
 class Solution {
     public ListNode deleteMiddle(ListNode head) {
 
