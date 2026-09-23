@@ -14,7 +14,6 @@ class Solution {
             if("aeiou".indexOf(s.charAt(i-k))!=-1){
                c--;
             }
-            
             m=Math.max(c,m);
         }
         return m;
