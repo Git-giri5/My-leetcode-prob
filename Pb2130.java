@@ -10,6 +10,7 @@ class Solution {
             fast = fast.next.next;
         }
 
+        
         // Reverse second half
         ListNode prev = null;
         while (slow != null) {
