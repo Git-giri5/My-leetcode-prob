@@ -19,6 +19,7 @@ class Solution {
                 num = 0;
                 current = new StringBuilder();
             }
+                
 
             else if (ch == ']') {
                 int repeat = countStack.pop();
