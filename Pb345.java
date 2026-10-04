@@ -9,6 +9,7 @@ class Solution {
             while(i<j&&"aeiouAEIOU".indexOf(s.charAt(j))==-1){
                 j--;
             }
+            
             char temp=s.charAt(i);
             sb.setCharAt(i,s.charAt(j));
             sb.setCharAt(j,temp);
